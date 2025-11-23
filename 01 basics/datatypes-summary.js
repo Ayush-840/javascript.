@@ -23,3 +23,31 @@ console.log(typeof anotherId)    // Symbol
 
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// Stack (primitive), 
+// Heap(non-premitive)
+
+let myname="ayush"
+let anothername = myname
+console.log(anothername)   //output; ayush
+
+
+
+let mynamee="ayush"
+let anothernamee = "singh"
+console.log(mynamee)        // output; ayush
+console.log(anothernamee)     // output; singh
+
+let userOne = {
+   email: "singhayushkumar5555@gmail.com",
+   upi: "user@3131"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "studentuse33@gmail.com"
+
+console.log(userOne.email);    // output; studentuse33@gmail.com
+console.log(userTwo.email);     // output; studentuse33@gmail.com
+
