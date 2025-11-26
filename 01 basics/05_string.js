@@ -24,3 +24,21 @@ console.log(gameName.indexOf('s'));  // output; 3
 
 const newString = gameName.substring(0,4)
 console.log(newString)   // output; Ayus
+
+const anotherString = gameName.slice(-8,5)     //output; ush
+console.log(anotherString);
+
+const newStringone = "     ayush "
+console.log(newStringone)         //output;     ayush       //with space
+console.log(newStringone.trim())    // output; ayush   without space
+
+
+const url = "https:/ayush.com/ayush%20singh"     //output; https:/ayush.com/ayush%20singh
+console.log(url)
+console.log(url.replace('%20', '-'))    // output; https:/ayush.com/ayush-singh
+
+console.log(url.includes('ayush'))   // output; true
+
+console.log(url.includes('laddu'))    // output; false
+
+console.log(gameName.split('-'))    // output; [ 'Ayushsingh' ]
