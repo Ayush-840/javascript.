@@ -55,7 +55,21 @@ console.log(typeof myArry)   //output; object
 
 
 console.log("A", myArry);
-const myn1 = myArry.slice(1,3)    
+const myn1 = myArry.slice(1,4)    
+console.log(myn1);     //output; A [ 9, 1, 2, 3, 4, 5 ]   [1,2,3]
+//note:- slice function mei jo hmare range hote hai vo index ka hota hai ye hmee uss index ke range ka element deta 
+
+
+console.log("B" , myArry)    //output; B [ 9, 1, 2, 3, 4, 5 ]
+
+
+const mynk2 = myArry.splice(1,3)
+console.log(mynk2);    //output; [1,2,3]
+
+const mynk22 = myArry.splice(1,4)
+console.log(mynk22);       //output; [4,5]
+console.log("c" , myArry)   // output; [9]
+
 
 
 
