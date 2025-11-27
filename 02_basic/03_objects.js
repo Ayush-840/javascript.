@@ -15,3 +15,5 @@ const jsUser = {
 console.log(jsUser.email)          //output; singhayushkumar5555@gmail.com
 console.log(jsUser["email"])        //output; singhayushkumar5555@gmail.com 
 console.log(jsUser.lastLoginDays)   //output; [ 'Monday', 'Saturday' ]
+
+
